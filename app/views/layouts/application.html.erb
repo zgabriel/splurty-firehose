@@ -29,7 +29,22 @@
 	<hr />
 	<br class="clear" />
 
-<%= yield %>
+	<div class="container">
+		<%= yield %>
+	</div>
+	
+	<div class="footer">
+		<div class="container">
+			<div class="col-xs-6">
+				<%= link_to "MOAR WISDOM.", "#", :class => 'next-quote' %>
+			</div>
+			<div class="col-xs-6 footer-blurb">
+				Made by Zavo. I follow directions.<br />
+				Build your own Splurty app at <a href="http://thefirehoseproject.com">The Firehose Project</a>
+			</div>
+		</div>
+	</div>
+
 
 </body>
 </html>
