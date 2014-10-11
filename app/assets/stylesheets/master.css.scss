@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
 .clear {
 	clear:both;
 }
@@ -36,6 +38,8 @@
     color:black;
     font-size: 25px;
     border-bottom: 1px solid #dfdfdf;
+    font-family: "Lato", sans-serif;
+    font-weight:bold;
 }
 
 header {
@@ -44,4 +48,14 @@ header {
 
 hr {
     clear:both;
+}
+
+h1 {
+    font-family: "Lato", sans-serif;
+    font-weight:bold;
+    font-size:48px;
+}
+
+h2 {
+    font-family: "architects_daughterregular", sans-serif;
 }
